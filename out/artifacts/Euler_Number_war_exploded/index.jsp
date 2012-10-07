@@ -9,26 +9,26 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <html>
-  <head>
+<head>
     <title>Euler number</title>
-  </head>
-  <body>
-    <form action="get-euler" method="post">
-        <div style="color: red;">
-            <%--@elvariable id="error" type="java.lang.String"--%>
-            <c:out value="${error}" />
-        </div>
+</head>
+<body>
+<form action="get-euler" method="post">
+    <div style="color: red;">
+        <%--@elvariable id="error" type="java.lang.String"--%>
+        <c:out value="${error}"/>
+    </div>
 
-        <div>
-            Decimals: <input name="decimals">
-        </div>
+    <div>
+        Decimals: <input name="decimals">
+    </div>
 
-        <div>
-            <c:if test="${not empty number}">
-                Euler number:  <c:out value="${number}" />
-            </c:if>
-        </div>
+    <div>
+        <c:if test="${not empty number}">
+            Euler number: <c:out value="${number}"/>
+        </c:if>
+    </div>
 
-    </form>
-  </body>
+</form>
+</body>
 </html>
