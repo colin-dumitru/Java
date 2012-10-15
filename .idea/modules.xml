@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Euler Number/Euler Number.iml" filepath="$PROJECT_DIR$/Euler Number/Euler Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTMLController/HTMLController.iml" filepath="$PROJECT_DIR$/HTMLController/HTMLController.iml" />
     </modules>
   </component>
 </project>

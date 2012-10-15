@@ -1,0 +1,6 @@
+index.jsp, login, login.jsp
+index.jsp, register, register.jsp
+login.jsp, register, register.jsp
+login.jsp, home, index.jsp
+register.jsp, login, login.jsp
+register.jsp, home, index.jsp
