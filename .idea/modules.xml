@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Euler Number/Euler Number.iml" filepath="$PROJECT_DIR$/Euler Number/Euler Number.iml" />
       <module fileurl="file://$PROJECT_DIR$/HTMLController/HTMLController.iml" filepath="$PROJECT_DIR$/HTMLController/HTMLController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSPBeanServlet/JSPBeanServlet.iml" filepath="$PROJECT_DIR$/JSPBeanServlet/JSPBeanServlet.iml" />
     </modules>
   </component>
 </project>
