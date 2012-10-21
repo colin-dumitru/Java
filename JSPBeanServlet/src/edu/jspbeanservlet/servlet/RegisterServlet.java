@@ -1,5 +1,8 @@
 package edu.jspbeanservlet.servlet;
 
+import edu.jspbeanservlet.service.authentication.AuthenticationService;
+import edu.jspbeanservlet.service.authentication.UserInformation;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,8 +16,18 @@ import java.io.IOException;
  */
 @WebServlet(name = "RegisterServlet", urlPatterns = "/register")
 public class RegisterServlet extends HttpServlet {
+    @java.lang.Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String userName = request.getParameter("userName");
+        String password = request.getParameter("password");
 
+        UserInformation userInformation = AuthenticationService.instance().registerUser(userName, password);
+
+        if (userInformation == null) {
+            NavigationUtil.redirectToError("User already exists", request, response);
+        } else {
+            request.getRequestDispatcher("login").forward(request, response);
+        }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

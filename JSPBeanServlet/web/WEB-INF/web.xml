@@ -8,4 +8,8 @@
         <welcome-file>login</welcome-file>
     </welcome-file-list>
 
+    <listener>
+        <listener-class>edu.jspbeanservlet.service.ContextListener</listener-class>
+    </listener>
+
 </web-app>

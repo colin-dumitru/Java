@@ -6,7 +6,11 @@
 <html>
 <body>
 
-Result
+<jsp:useBean id="computeModel" class="edu.jspbeanservlet.model.ComputeModel" scope="session"/>
+<jsp:setProperty name="computeModel" property="*"/>
+
+Result:
+<jsp:getProperty name="computeModel" property="result"/>
 
 </body>
 </html>
