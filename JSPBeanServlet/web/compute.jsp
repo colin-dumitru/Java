@@ -1,16 +1,26 @@
 <%@ page import="edu.jspbeanservlet.model.ComputeModel" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Catalin Dumitru
   Universitatea Alexandru Ioan Cuza
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+
 <body>
 
 <jsp:useBean id="computeModel" class="edu.jspbeanservlet.model.ComputeModel" scope="session"/>
+<jsp:setProperty name="computeModel" property="*"/>
 
-<div>
-    <form action="result" method="post">
+<c:if test="${computeModel.defined}">
+    <c:redirect url="result"/>
+</c:if>
+
+<div class="framed">
+    <form action="compute" method="post">
         <div>
             <label>
                 First number: <input name="firstNumber"

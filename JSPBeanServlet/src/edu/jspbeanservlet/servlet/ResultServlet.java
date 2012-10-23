@@ -1,5 +1,7 @@
 package edu.jspbeanservlet.servlet;
 
+import edu.jspbeanservlet.model.ComputeModel;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -14,10 +16,12 @@ import java.io.IOException;
  */
 @WebServlet(urlPatterns = "/result")
 public class ResultServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         if (NavigationUtil.checkLogin(request, response) == null) {
             return;
         }
+        ComputeModel model = (ComputeModel) request.getSession().getAttribute("computeModel");
+        request.setAttribute("result", model.getResult());
         request.getRequestDispatcher("result.jsp").forward(request, response);
     }
 }

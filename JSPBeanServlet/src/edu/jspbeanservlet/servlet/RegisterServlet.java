@@ -2,6 +2,7 @@ package edu.jspbeanservlet.servlet;
 
 import edu.jspbeanservlet.service.authentication.AuthenticationService;
 import edu.jspbeanservlet.service.authentication.UserInformation;
+import nl.captcha.Captcha;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,6 +21,13 @@ public class RegisterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String userName = request.getParameter("userName");
         String password = request.getParameter("password");
+        String enteredCaptcha = request.getParameter("enteredCaptcha");
+        Captcha captcha = (Captcha) request.getSession().getAttribute(Captcha.NAME);
+
+        if (!captcha.isCorrect(enteredCaptcha)) {
+            NavigationUtil.redirectToError("Wrong captcha entered", request, response);
+            return;
+        }
 
         UserInformation userInformation = AuthenticationService.instance().registerUser(userName, password);
 

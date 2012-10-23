@@ -32,11 +32,13 @@ public class ComputeModel {
                 return first.multiply(second);
             }
         };
+
         private String displayName;
 
         private Operation(String displayName) {
             this.displayName = displayName;
         }
+
 
         public String getDisplayName() {
             return displayName;
@@ -47,7 +49,7 @@ public class ComputeModel {
 
     private BigDecimal firstNumber = BigDecimal.ZERO;
     private BigDecimal secondNumber = BigDecimal.ZERO;
-    private Operation operation = Operation.ADD;
+    private Operation operation = null;
 
     public String getFirstNumber() {
         return firstNumber.toPlainString();
@@ -75,5 +77,9 @@ public class ComputeModel {
 
     public String getResult() {
         return operation.getResult(firstNumber, secondNumber).toPlainString();
+    }
+
+    public boolean isDefined() {
+        return operation != null;
     }
 }

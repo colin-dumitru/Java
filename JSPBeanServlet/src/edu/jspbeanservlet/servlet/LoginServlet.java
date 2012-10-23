@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Objects;
 
 /**
@@ -46,21 +49,40 @@ public class LoginServlet extends HttpServlet {
         Cookie rememberCookie = getRememberCookie(request.getCookies());
 
         if (rememberCookie != null) {
-            request.getSession().setAttribute("userInfo",
-                    AuthenticationService.instance().getUserInfo(rememberCookie.getValue()));
-            request.getRequestDispatcher("compute").forward(request, response);
-        } else {
-            request.getRequestDispatcher("login.jsp").forward(request, response);
+            UserInformation userInfo = AuthenticationService.instance().getUserInfo(rememberCookie.getValue());
+            if (validateUserInfo(request, response, userInfo)) {
+                return;
+            }
         }
+
+        request.getRequestDispatcher("login.jsp").forward(request, response);
+    }
+
+    private boolean validateUserInfo(HttpServletRequest request, HttpServletResponse response, UserInformation userInfo) throws ServletException, IOException {
+        if (userInfo != null) {
+            request.getSession().setAttribute("userInfo", userInfo);
+            request.getRequestDispatcher("compute").forward(request, response);
+            return true;
+        } else {
+            removeRememberMeCookie(request);
+        }
+        return false;
     }
 
     private Cookie getRememberCookie(Cookie[] cookies) {
-        for (Cookie cookie : cookies) {
+        for (Cookie cookie : emptyCollectionIfNull(cookies)) {
             if (cookie.getName().equals("rememberMe")) {
                 return cookie;
             }
         }
         return null;
+    }
+
+    private <T> Collection<T> emptyCollectionIfNull(T[] cookies) {
+        if (cookies != null) {
+            return Arrays.asList(cookies);
+        }
+        return Collections.emptyList();
     }
 
     private void removeRememberMeCookie(HttpServletRequest request) {
@@ -71,6 +93,8 @@ public class LoginServlet extends HttpServlet {
     }
 
     private void addRememberMeCookie(HttpServletResponse response, UserInformation userInformation) {
-        response.addCookie(new Cookie("rememberMe", userInformation.getUserName()));
+        Cookie rememberMeCookie = new Cookie("rememberMe", userInformation.getUserName());
+        rememberMeCookie.setMaxAge(10000);
+        response.addCookie(rememberMeCookie);
     }
 }
