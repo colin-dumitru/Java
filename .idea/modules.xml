@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Euler Number/Euler Number.iml" filepath="$PROJECT_DIR$/Euler Number/Euler Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Filter/Filter.iml" filepath="$PROJECT_DIR$/Filter/Filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/HTMLController/HTMLController.iml" filepath="$PROJECT_DIR$/HTMLController/HTMLController.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSPBeanServlet/JSPBeanServlet.iml" filepath="$PROJECT_DIR$/JSPBeanServlet/JSPBeanServlet.iml" />
     </modules>
