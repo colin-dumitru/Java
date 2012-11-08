@@ -25,5 +25,9 @@ public class JpaService {
         return entityManager;
     }
 
+    public JpaTransaction beginTransaction() {
+        return new JpaTransaction(entityManager.getTransaction());
+    }
+
 
 }

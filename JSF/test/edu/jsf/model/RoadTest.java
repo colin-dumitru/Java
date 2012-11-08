@@ -14,7 +14,7 @@ import static org.junit.Assert.assertThat;
  * Catalin Dumitru
  * Universitatea Alexandru Ioan Cuza
  */
-public class SignTest {
+public class RoadTest {
     private JpaService jpaService;
 
     @Before
@@ -25,36 +25,36 @@ public class SignTest {
 
     @Test
     public void testSave() {
-        Sign sign = createSign();
+        Road road = createRoad();
 
         try (JpaTransaction transaction = jpaService.beginTransaction()) {
-            jpaService.getEntityManager().persist(sign);
+            jpaService.getEntityManager().persist(road);
             transaction.commit();
         }
 
-        assertNotNull("Sign was not saved in DB", sign.getId());
+        assertNotNull("Road was not saved in DB", road.getId());
     }
 
     @Test
     public void testRetrieve() {
-        Sign sign = createSign();
+        Road road = createRoad();
 
         try (JpaTransaction transaction = jpaService.beginTransaction()) {
-            jpaService.getEntityManager().persist(sign);
+            jpaService.getEntityManager().persist(road);
             transaction.commit();
         }
 
-        Sign storedSign = jpaService.getEntityManager().find(Sign.class, sign.getId());
+        Road storedRoad = jpaService.getEntityManager().find(Road.class, road.getId());
 
-        assertThat("Stored sign does not match original", storedSign, is(equalTo(sign)));
+        assertThat("Stored road does not match original", storedRoad, is(equalTo(road)));
     }
 
-    private Sign createSign() {
-        Sign sign = new Sign();
-        sign.setCode("C11");
-        sign.setData("data");
-        sign.setImageType("image/x-png");
-        sign.setName("name");
-        return sign;
+    private Road createRoad() {
+        Road road = new Road();
+        road.setAdministration("administration");
+        road.setLength(10);
+        road.setRoadType(RoadType.COUNTY);
+        road.setIndicative("E80");
+        return road;
     }
 }

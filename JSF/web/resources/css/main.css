@@ -1,0 +1,20 @@
+html {
+    background-color: #e1e1e1;
+}
+
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.frame {
+    background-color: white;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px #a9a9a9 solid;
+    border-radius: 5px;
+    box-shadow: #434343 0px 0px 10px;
+    padding: 5px;
+}
