@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Commons/Commons.iml" filepath="$PROJECT_DIR$/Commons/Commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/Euler Number/Euler Number.iml" filepath="$PROJECT_DIR$/Euler Number/Euler Number.iml" />
       <module fileurl="file://$PROJECT_DIR$/Filter/Filter.iml" filepath="$PROJECT_DIR$/Filter/Filter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HTMLController/HtmlController.iml" filepath="$PROJECT_DIR$/HTMLController/HtmlController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTMLController/HTMLController.iml" filepath="$PROJECT_DIR$/HTMLController/HTMLController.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSF/JSF.iml" filepath="$PROJECT_DIR$/JSF/JSF.iml" />
     </modules>
   </component>

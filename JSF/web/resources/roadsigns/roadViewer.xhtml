@@ -65,7 +65,9 @@
                 <ice:commandButton action="#{roadViewerBackingBean.removeSign(signPlacement.id)}" value="X"/>
             </ice:column>
         </ice:dataTable>
+    </ice:form>
 
+    <ice:form>
         <ice:panelGrid columns="2">
             <ice:outputText value="Select Sign"/>
             <ice:selectOneMenu value="#{roadViewerBackingBean.selectedSign}" required="true">
