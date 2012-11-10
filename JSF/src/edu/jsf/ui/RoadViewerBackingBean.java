@@ -33,6 +33,7 @@ public class RoadViewerBackingBean {
     private Road selectedRoad;
     private Sign selectedSign;
     private Integer atKilometer;
+    private String comment;
 
     @PostConstruct
     public void init() {
@@ -152,6 +153,14 @@ public class RoadViewerBackingBean {
         }
     }
 
+    public String getComment() {
+        return "";
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
     public void validateKilometer(FacesContext context, UIComponent validate, Object value) {
         if (selectedRoad == null) {
             return;
@@ -179,6 +188,7 @@ public class RoadViewerBackingBean {
         signPlacement.setKilometer(atKilometer);
         signPlacement.setRoad(selectedRoad);
         signPlacement.setSign(selectedSign);
+        signPlacement.setComment(comment);
 
         try (JpaTransaction transaction = jpaService.beginTransaction()) {
             jpaService.getEntityManager().persist(signPlacement);

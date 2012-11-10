@@ -54,23 +54,35 @@
                 <ice:outputText value="#{signPlacement.kilometer}"/>
             </ice:column>
 
+            <ice:column style="width:100px;">
+                <f:facet name="header">
+                    <ice:outputText value="Comment"/>
+                </f:facet>
+                <ice:outputText value="#{signPlacement.comment}"/>
+            </ice:column>
+
             <ice:column style="width:20px;">
                 <ice:commandButton action="#{roadViewerBackingBean.removeSign(signPlacement.id)}" value="X"/>
             </ice:column>
         </ice:dataTable>
 
-        <ice:panelGroup>
-            <ice:outputText value="Add"/>
+        <ice:panelGrid columns="2">
+            <ice:outputText value="Select Sign"/>
             <ice:selectOneMenu value="#{roadViewerBackingBean.selectedSign}" required="true">
                 <f:selectItems value="#{roadViewerBackingBean.signs}"/>
             </ice:selectOneMenu>
-            <ice:outputText value="at"/>
+
+            <ice:outputText value="Kilometer"/>
             <ice:inputText value="#{roadViewerBackingBean.kilometer}"
                            validator="#{roadViewerBackingBean.validateKilometer}"
                            validatorMessage="Kilometer must be a value between 0 and Road length" required="true"/>
+
+            <ice:outputText value="Comment"/>
+            <ice:inputTextarea value="#{roadViewerBackingBean.comment}" required="true"/>
+
             <ice:commandButton action="#{roadViewerBackingBean.addSign}" value="Add Sign"/>
 
-        </ice:panelGroup>
+        </ice:panelGrid>
 
         <ice:messages/>
 

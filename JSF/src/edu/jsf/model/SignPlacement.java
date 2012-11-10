@@ -12,6 +12,7 @@ public class SignPlacement {
     private Road road;
     private Sign sign;
     private Integer kilometer;
+    private String comment;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -48,5 +49,14 @@ public class SignPlacement {
 
     public void setKilometer(Integer kilometer) {
         this.kilometer = kilometer;
+    }
+
+    @Column
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }

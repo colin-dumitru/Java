@@ -62,6 +62,7 @@ public class SignPlacementTest {
         placement.setKilometer(10);
         placement.setRoad(road);
         placement.setSign(sign);
+        placement.setComment("Temp");
         return placement;
     }
 
