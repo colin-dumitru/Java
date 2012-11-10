@@ -15,6 +15,17 @@ public class Sign {
     private String imageType;
     private String data;
 
+    public Sign() {
+    }
+
+    public Sign(Sign other) {
+        this.id = other.id;
+        this.code = other.code;
+        this.name = other.name;
+        this.imageType = other.imageType;
+        this.data = other.data;
+    }
+
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -65,5 +76,12 @@ public class Sign {
     @Override
     public String toString() {
         return String.format("%s (%s)", code, name);
+    }
+
+    @Transient
+    public String getImageSource() {
+        return String.format("data:%s;base64,%s",
+                getImageType(),
+                getData());
     }
 }

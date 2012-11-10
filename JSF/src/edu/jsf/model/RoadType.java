@@ -5,7 +5,17 @@ package edu.jsf.model;
  * Universitatea Alexandru Ioan Cuza
  */
 public enum RoadType {
-    EUROPEAN,
-    NATIONAL,
-    COUNTY
+    EUROPEAN("European"),
+    NATIONAL("National"),
+    COUNTY("County");
+
+    private String userName;
+
+    private RoadType(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
 }

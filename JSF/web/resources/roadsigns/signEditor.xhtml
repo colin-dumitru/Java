@@ -12,11 +12,33 @@
 </composite:interface>
 
 <composite:implementation>
-    <ice:selectOneListbox id="selectSign" value="#{indicatorsBackingBean.selectedSign}" partialSubmit="true">
-        <f:selectItems value="#{indicatorsBackingBean.definedSigns}"/>
-    </ice:selectOneListbox>
+    <ice:form styleClass="content">
+        <ice:selectOneMenu id="selectSign" value="#{indicatorsBackingBean.selectedSign}" partialSubmit="true">
+            <f:selectItems value="#{indicatorsBackingBean.definedSigns}"/>
+        </ice:selectOneMenu>
 
-    <ice:inputText value="#{indicatorsBackingBean.selectedSignName}" partialSubmit="true"/>
+        <ice:panelGrid columns="2">
+            <ice:outputLabel for="selectedSignCode" value="Sign code"/>
+            <ice:inputText id="selectedSignCode" value="#{indicatorsBackingBean.selectedSignCode}"/>
+
+            <ice:outputLabel for="selectedSignName" value="Sign name"/>
+            <ice:inputText id="selectedSignName" value="#{indicatorsBackingBean.selectedSignName}"/>
+
+            <ice:outputLabel for="imageData" value="Base64 Image Data"/>
+            <ice:inputTextarea id="imageData" value="#{indicatorsBackingBean.imageData}"/>
+
+            <ice:outputLabel for="image" value="Image"/>
+            <ice:graphicImage id="image" value="#{indicatorsBackingBean.imageSource}"/>
+        </ice:panelGrid>
+
+
+        <ice:panelGrid columns="3">
+            <ice:commandButton action="#{indicatorsBackingBean.saveNewSign}" value="Save New"/>
+            <ice:commandButton action="#{indicatorsBackingBean.updateSign}" value="Update"/>
+            <ice:commandButton action="#{indicatorsBackingBean.deleteSign}" value="Delete"/>
+        </ice:panelGrid>
+
+    </ice:form>
 
 </composite:implementation>
 

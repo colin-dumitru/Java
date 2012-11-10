@@ -4,15 +4,17 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
       xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:ui="http://java.sun.com/jsf/facelets">
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:ice="http://www.icesoft.com/icefaces/component">
 
 <h:head>
-    <h:outputStylesheet name="css/main.css"/>
+    <ice:outputStyle href="css/main.css"/>
+    <ice:outputStyle href="/xmlhttp/css/rime/rime-portlet.css"/>
 </h:head>
 
 <h:body>
 
-    <div class="page">
+    <ice:panelGroup styleClass="page">
         <div class="frame">
             <ui:insert name="roadMap"/>
         </div>
@@ -28,7 +30,7 @@
         <div class="frame">
             <ui:insert name="roadSignEditor"/>
         </div>
-    </div>
+    </ice:panelGroup>
 
 </h:body>
 </html>

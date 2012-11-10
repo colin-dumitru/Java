@@ -61,4 +61,13 @@ public class Road {
     public void setIndicative(String indicative) {
         this.indicative = indicative;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s - %s (%s)",
+                this.indicative,
+                this.roadType,
+                this.administration
+        );
+    }
 }

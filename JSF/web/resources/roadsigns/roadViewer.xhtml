@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ice="http://www.icesoft.com/icefaces/component"
+      xmlns:composite="http://java.sun.com/jsf/composite">
+
+<composite:interface>
+
+</composite:interface>
+
+<composite:implementation>
+    <ice:form>
+        <ice:panelGrid columns="2">
+            <ice:outputText value="Select Road"/>
+            <ice:selectOneMenu partialSubmit="true" value="#{roadViewerBackingBean.selectedRoad}" required="true">
+                <f:selectItems value="#{roadViewerBackingBean.roads}"/>
+            </ice:selectOneMenu>
+
+            <ice:outputText value="Indicative"/>
+            <ice:outputText value="#{roadViewerBackingBean.roadIndicative}"/>
+
+            <ice:outputText value="Aministration"/>
+            <ice:outputText value="#{roadViewerBackingBean.roadAdministration}"/>
+
+            <ice:outputText value="Type"/>
+            <ice:outputText value="#{roadViewerBackingBean.roadType}"/>
+
+            <ice:outputText value="Length"/>
+            <ice:outputText value="#{roadViewerBackingBean.roadLength}"/>
+        </ice:panelGrid>
+
+        <ice:dataTable value="#{roadViewerBackingBean.signPlacements}" var="signPlacement" styleClass="content">
+            <ice:column style="width:75px;">
+                <f:facet name="header">
+                    <ice:outputText value="Sign"/>
+                </f:facet>
+                <ice:graphicImage id="image" value="#{signPlacement.sign.imageSource}"/>
+            </ice:column>
+
+            <ice:column>
+                <f:facet name="header">
+                    <ice:outputText value="Sign Name"/>
+                </f:facet>
+                <ice:outputText value="#{signPlacement.sign}"/>
+            </ice:column>
+
+            <ice:column style="width:100px;">
+                <f:facet name="header">
+                    <ice:outputText value="Placement"/>
+                </f:facet>
+                <ice:outputText value="#{signPlacement.kilometer}"/>
+            </ice:column>
+
+            <ice:column style="width:20px;">
+                <ice:commandButton action="#{roadViewerBackingBean.removeSign(signPlacement.id)}" value="X"/>
+            </ice:column>
+        </ice:dataTable>
+
+        <ice:panelGroup>
+            <ice:outputText value="Add"/>
+            <ice:selectOneMenu value="#{roadViewerBackingBean.selectedSign}" required="true">
+                <f:selectItems value="#{roadViewerBackingBean.signs}"/>
+            </ice:selectOneMenu>
+            <ice:outputText value="at"/>
+            <ice:inputText value="#{roadViewerBackingBean.kilometer}"
+                           validator="#{roadViewerBackingBean.validateKilometer}"
+                           validatorMessage="Kilometer must be a value between 0 and Road length" required="true"/>
+            <ice:commandButton action="#{roadViewerBackingBean.addSign}" value="Add Sign"/>
+
+        </ice:panelGroup>
+
+        <ice:messages/>
+
+    </ice:form>
+
+</composite:implementation>
+
+</html>

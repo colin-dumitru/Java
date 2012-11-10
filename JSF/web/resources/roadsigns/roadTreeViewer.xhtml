@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ice="http://www.icesoft.com/icefaces/component"
+      xmlns:composite="http://java.sun.com/jsf/composite">
+
+<composite:interface>
+
+</composite:interface>
+
+<composite:implementation>
+    <ice:form>
+        <ice:panelGroup>
+            <ice:tree value="#{roadTreeViewerBackingBean.treeModel}" var="node" hideNavigation="false"
+                      hideRootNode="false">
+                <ice:treeNode>
+                    <f:facet name="icon">
+                        <ice:graphicImage value="#{node.userObject.imageSource}" style="width:25px; height:25px;"/>
+                    </f:facet>
+                    <f:facet name="content">
+                        <ice:outputText value="#{node.userObject.label}"/>
+                    </f:facet>
+                </ice:treeNode>
+            </ice:tree>
+        </ice:panelGroup>
+    </ice:form>
+
+</composite:implementation>
+
+</html>
