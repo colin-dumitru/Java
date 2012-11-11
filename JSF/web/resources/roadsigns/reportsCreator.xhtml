@@ -4,7 +4,8 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:ice="http://www.icesoft.com/icefaces/component"
-      xmlns:composite="http://java.sun.com/jsf/composite">
+      xmlns:composite="http://java.sun.com/jsf/composite"
+      xmlns:f="http://java.sun.com/jsf/core">
 
 <composite:interface>
 
@@ -13,7 +14,12 @@
 <composite:implementation>
     <ice:form>
         <ice:panelGroup>
+            <ice:outputText value="Sign Placement"/>
+            <ice:selectManyListbox value="#{reportsCreatorBackingBean.selectedRoads}">
+                <f:selectItems value="#{reportsCreatorBackingBean.roads}"/>
+            </ice:selectManyListbox>
 
+            <ice:outputResource resource="#{reportsCreatorBackingBean.signPlacementResource}" label="Download PDF"/>
         </ice:panelGroup>
     </ice:form>
 

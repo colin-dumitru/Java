@@ -65,6 +65,7 @@
     <orderEntry type="module" module-name="Commons" />
     <orderEntry type="library" name="org.icefaces:icefaces-compat:3.1.0" level="project" />
     <orderEntry type="library" name="jasperreports-4.8.0" level="project" />
+    <orderEntry type="library" name="commons-digester3-3" level="project" />
   </component>
 </module>
 
