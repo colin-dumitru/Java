@@ -1,49 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8f41cff-4007-43b0-ab22-cdac2bec46f8" name="Default" comment="added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/ant-1.7.1-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/barbecue-1.5-beta1-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/barcode4j-2.1-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/barcode4j-2.1-NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/batik-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/bcel-5.2-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/bcel-5.2-NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/bsh-2.0b4-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/castor1.2-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/commons-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/commons-NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/groovy-all-2.0.1-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/iText-2.1.7-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/jackson-annotations-2.0.5-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/jackson-core-2.0.5-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/jackson-databind-2.0.5-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/jaxen-1.1.1-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/jcommon-1.0.15-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/jdt-compiler-3.1.1-LICENSE.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/jfreechart-1.0.12-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/jxl-2.6.10-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/log4j-1.2.15-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/mondrian-3.1.1.12687-LICENSE.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/png-encoder-1.5-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/poi-3.7-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/poi-3.7-NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/rhino-1.7R3-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/velocity-1.7-dep-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/velocity-1.7-dep-NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/xalan-2.7.1-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2/xercesImpl-2.9.0-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JSF/src/edu/jsf/ui/ReportsCreatorBackingBean.java" />
+    <list default="true" id="a8f41cff-4007-43b0-ab22-cdac2bec46f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSF/db/TJDB.lck" afterPath="$PROJECT_DIR$/JSF/db/TJDB.lck" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSF/resources/indicatoare.jasper" afterPath="$PROJECT_DIR$/JSF/resources/indicatoare.jasper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSF/JSF.iml" afterPath="$PROJECT_DIR$/JSF/JSF.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSF/db/TJDB.log" afterPath="$PROJECT_DIR$/JSF/db/TJDB.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSF/db/TJDB.properties" afterPath="$PROJECT_DIR$/JSF/db/TJDB.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSF/db/TJDB.script" afterPath="$PROJECT_DIR$/JSF/db/TJDB.script" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSF/web/index.xhtml" afterPath="$PROJECT_DIR$/JSF/web/index.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSF/web/resources/roadsigns/reportsCreator.xhtml" afterPath="$PROJECT_DIR$/JSF/web/resources/roadsigns/reportsCreator.xhtml" />
-      <change type="MOVED" beforePath="E:\My Work\Uni\Java\JSF\web\resources\indicatoare.jasper" afterPath="$PROJECT_DIR$/JSF/resources/indicatoare.jasper" />
-      <change type="MOVED" beforePath="E:\My Work\Uni\Java\JSF\web\resources\indicatoare.jrxml" afterPath="$PROJECT_DIR$/JSF/resources/indicatoare.jrxml" />
     </list>
     <list id="f557de4b-7027-4f05-90c6-c11378ec7e2d" name="IDEA" comment="" />
     <ignored path="Java.iws" />
@@ -130,8 +94,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -143,7 +107,7 @@
       <file leaf-file-name="reportsCreator.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSF/web/resources/roadsigns/reportsCreator.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="117" selection-start="872" selection-end="872" vertical-scroll-proportion="-11.192307">
+            <state line="24" column="25" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-12.307693">
               <folding />
             </state>
           </provider>
@@ -152,25 +116,7 @@
       <file leaf-file-name="ReportsCreatorBackingBean.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JSF/src/edu/jsf/ui/ReportsCreatorBackingBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="34" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.39731285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JREvaluator.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/Commons/lib/jasperreports-4.8.0.jar!/net/sf/jasperreports/engine/fill/JREvaluator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="3158" selection-end="3158" vertical-scroll-proportion="-16.24">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoadTreeViewerBackingBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSF/src/edu/jsf/ui/RoadTreeViewerBackingBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="8" selection-start="2030" selection-end="2052" vertical-scroll-proportion="0.0">
+            <state line="167" column="58" selection-start="5544" selection-end="5544" vertical-scroll-proportion="0.6172608">
               <folding />
             </state>
           </provider>
@@ -494,48 +440,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons-digester3-3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -552,17 +456,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="216" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="216" />
-    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="216" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="216" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="217" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="217" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="891" />
@@ -576,22 +480,22 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="E:\My Work\Uni\Java\Commons\lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="Downloaded.Files.Path" value="E:\My Work\Uni\Java\Commons\lib" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/JSF/test" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="download.sources.last.used.dir" value="$PROJECT_DIR$/Commons/lib/commons-digester3-3.2" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="DefaultHtmlFileTemplate" value="Xhtml" />
+    <property name="download.sources.last.used.dir" value="$PROJECT_DIR$/Commons/sources" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Xhtml" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -871,24 +775,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -915,6 +801,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -1161,8 +1065,32 @@
       <created>1352586154895</created>
       <updated>1352586154895</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added initial jasper report">
+      <created>1352671967311</created>
+      <updated>1352671967311</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1634" height="1066" extended-state="6" />
@@ -1174,7 +1102,7 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3966851" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3834254" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1183,11 +1111,11 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.60331494" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24904458" sideWeight="0.23646408" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28280255" sideWeight="0.60331494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28280255" sideWeight="0.6165746" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1234,7 +1162,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added report design" />
+    <option name="LAST_COMMIT_MESSAGE" value="added initial jasper report" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1255,6 +1183,7 @@
     <MESSAGE value="finished initial configs" />
     <MESSAGE value="finished sign-road viewer" />
     <MESSAGE value="added report design" />
+    <MESSAGE value="added initial jasper report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1264,114 +1193,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+    <entry file="jar://$PROJECT_DIR$/Commons/sources/jasperreports-4.8.0-sources.jar!/net/sf/jasperreports/engine/fill/JRCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="799" selection-end="799" vertical-scroll-proportion="0.5019685">
+        <state line="581" column="0" selection-start="13335" selection-end="13335" vertical-scroll-proportion="0.3326923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSF/resources/indicatoare.jrxml">
+    <entry file="jar://$PROJECT_DIR$/Commons/sources/jasperreports-4.8.0-sources.jar!/net/sf/jasperreports/engine/JRExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4055119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Commons/lib/jsf-api.jar!/javax/faces/component/MethodBindingMethodExpressionAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="678" selection-end="678" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Commons/lib/icefaces-compat-3.1.0-sources.jar!/com/icesoft/faces/context/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="807" selection-end="807" vertical-scroll-proportion="0.29366603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSF/web/resources/roadsigns/reportsCreator.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="117" selection-start="872" selection-end="872" vertical-scroll-proportion="-11.192307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSF/src/edu/jsf/ui/RoadToSignUserObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="257" selection-end="257" vertical-scroll-proportion="0.26103646">
+        <state line="39" column="29" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.33208254">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSF/src/edu/jsf/ui/RoadTreeViewerBackingBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="8" selection-start="2030" selection-end="2052" vertical-scroll-proportion="0.0">
+        <state line="84" column="43" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.98874295">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Commons/lib/jasperreports-4.8.0.jar!/net/sf/jasperreports/engine/JasperFillManager.class">
+    <entry file="jar://$PROJECT_DIR$/Commons/lib/icefaces-compat-3.1.0-sources.jar!/com/icesoft/faces/context/CompatResourceWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="58" selection-start="8833" selection-end="8833" vertical-scroll-proportion="0.3498965">
+        <state line="104" column="6" selection-start="3401" selection-end="3401" vertical-scroll-proportion="0.42776737">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Commons/lib/jasperreports-4.8.0.jar!/net/sf/jasperreports/engine/JRDataSource.class">
+    <entry file="jar://$PROJECT_DIR$/Commons/lib/icefaces-compat-3.1.0-sources.jar!/com/icesoft/faces/component/outputchart/ChartResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="175" selection-end="175" vertical-scroll-proportion="0.13709678">
+        <state line="22" column="13" selection-start="765" selection-end="765" vertical-scroll-proportion="0.19136961">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Commons/lib/jasperreports-4.8.0.jar!/net/sf/jasperreports/engine/util/JRLoader.class">
+    <entry file="jar://$PROJECT_DIR$/Commons/lib/icefaces-compat-3.1.0-sources.jar!/com/icesoft/faces/context/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="324" selection-end="324" vertical-scroll-proportion="0.3498965">
+        <state line="25" column="0" selection-start="807" selection-end="807" vertical-scroll-proportion="0.28705442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Commons/lib/jsf-impl.jar!/com/sun/faces/application/view/FaceletViewHandlingStrategy.class">
+    <entry file="jar://$PROJECT_DIR$/Commons/lib/icefaces-compat-3.1.0-sources.jar!/com/icesoft/faces/context/ByteArrayResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="16" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.33333334">
+        <state line="25" column="45" selection-start="871" selection-end="871" vertical-scroll-proportion="0.19136961">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Commons/lib/jsf-api.jar!/javax/faces/component/ValueBindingValueExpressionAdapter.class">
+    <entry file="jar://$PROJECT_DIR$/Commons/sources/jasperreports-4.8.0-sources.jar!/net/sf/jasperreports/engine/JasperFillManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.45341614">
+        <state line="652" column="27" selection-start="21575" selection-end="21575" vertical-scroll-proportion="0.52345216">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSF/src/edu/jsf/model/Road.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/jre/lib/rt.jar!/com/sun/xml/internal/messaging/saaj/util/ByteOutputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.29366603">
+        <state line="32" column="18" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.37037036">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSF/src/edu/jsf/model/Sign.java">
+    <entry file="jar://$PROJECT_DIR$/Commons/lib/icefaces-3.1.0-sources.jar!/org/icefaces/impl/push/DynamicResourceDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.29366603">
+        <state line="234" column="0" selection-start="9783" selection-end="9783" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Commons/lib/jasperreports-4.8.0.jar!/net/sf/jasperreports/engine/fill/JREvaluator.class">
+    <entry file="jar://$PROJECT_DIR$/Commons/lib/icefaces-compat-3.1.0-sources.jar!/com/icesoft/faces/context/ResourceRegistryLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="3158" selection-end="3158" vertical-scroll-proportion="-16.24">
+        <state line="108" column="0" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.52884614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Commons/lib/icefaces-compat-3.1.0-sources.jar!/com/icesoft/faces/component/outputresource/OutputResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="459" column="0" selection-start="12798" selection-end="12798" vertical-scroll-proportion="0.33208254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Commons/sources/jasperreports-4.8.0-sources.jar!/net/sf/jasperreports/engine/fill/JRFillDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1245" column="0" selection-start="33404" selection-end="33404" vertical-scroll-proportion="0.3326923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Commons/sources/jasperreports-4.8.0-sources.jar!/net/sf/jasperreports/engine/fill/JRFiller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.33208254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSF/web/resources/roadsigns/reportsCreator.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-12.307693">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSF/src/edu/jsf/ui/ReportsCreatorBackingBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="34" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.39731285">
+        <state line="167" column="58" selection-start="5544" selection-end="5544" vertical-scroll-proportion="0.6172608">
           <folding />
         </state>
       </provider>
@@ -1454,7 +1383,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-digester3-3</last-edited>
+          <last-edited>sources</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -15,11 +15,14 @@
     <ice:form>
         <ice:panelGroup>
             <ice:outputText value="Sign Placement"/>
-            <ice:selectManyListbox value="#{reportsCreatorBackingBean.selectedRoads}">
+            <ice:selectManyListbox value="#{reportsCreatorBackingBean.selectedRoads}" partialSubmit="true">
                 <f:selectItems value="#{reportsCreatorBackingBean.roads}"/>
             </ice:selectManyListbox>
 
-            <ice:outputResource resource="#{reportsCreatorBackingBean.signPlacementResource}" label="Download PDF"/>
+            <ice:outputResource shared="true" resource="#{reportsCreatorBackingBean.signPlacementResource}"
+                                label="Download PDF"
+                                lastModified="#{reportsCreatorBackingBean.lastSignPlacementModified}"
+                                attachment="true"/>
         </ice:panelGroup>
     </ice:form>
 
